@@ -11,13 +11,14 @@ source:
   sha256: ab8c1867e745715892f8d30c9409e9509467a610f5a702ac7b5cfa003787f6ce
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<39 or win]
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv'
 
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     # as in https://github.com/conda-forge/mpi4py-feedstock
     - python                                 # [build_platform != target_platform]
     - cython                                 # [build_platform != target_platform]
