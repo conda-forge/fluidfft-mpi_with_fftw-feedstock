@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fluidfft_mpi_with_fftw-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fluidfft_mpi_with_fftw-{{ version }}.tar.gz
   sha256: ab8c1867e745715892f8d30c9409e9509467a610f5a702ac7b5cfa003787f6ce
 
 build:
-  number: 2
+  number: 3
   skip: true  # [py<39 or win]
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv'
 
