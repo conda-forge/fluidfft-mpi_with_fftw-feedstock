@@ -47,6 +47,8 @@ test:
   imports:
     - fluidfft_mpi_with_fftw
   commands:
+    # issue in pyFFTW <=0.15
+    - pip install setuptools
     - pip check
   requires:
     - pip
