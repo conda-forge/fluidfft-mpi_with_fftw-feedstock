@@ -13,7 +13,7 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '18'
+- '19'
 fftw:
 - '3'
 macos_machine:
@@ -23,7 +23,7 @@ mpi:
 mpich:
 - '4'
 numpy:
-- '2.0'
+- '2'
 openmpi:
 - '5'
 pin_run_as_build:
@@ -31,9 +31,9 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.11.* *_cpython
+- 3.12.* *_cpython
 target_platform:
 - osx-64
 zip_keys:
 - - python
-  - numpy
+  - channel_sources
