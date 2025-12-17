@@ -27,13 +27,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_mpimpichpython3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21858&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fluidfft-mpi_with_fftw-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichpython3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_mpimpichpython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21858&branchName=main">
@@ -59,13 +52,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21858&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fluidfft-mpi_with_fftw-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichpython3.14.____cp314" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_mpiopenmpipython3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21858&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fluidfft-mpi_with_fftw-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -97,13 +83,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpimpichpython3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21858&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fluidfft-mpi_with_fftw-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichpython3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_mpimpichpython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21858&branchName=main">
@@ -129,13 +108,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21858&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fluidfft-mpi_with_fftw-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichpython3.14.____cp314" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_mpiopenmpipython3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21858&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fluidfft-mpi_with_fftw-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
